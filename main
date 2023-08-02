@@ -1,0 +1,13 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        char[] alphabet = { 'c', 'a', 'b', 'e', 'd', 'g', 'f' };
+        Array.Sort(alphabet);
+
+        Console.WriteLine(string.Join(" ", alphabet));
+        // Output: a b c d e f g
+    }
+}
